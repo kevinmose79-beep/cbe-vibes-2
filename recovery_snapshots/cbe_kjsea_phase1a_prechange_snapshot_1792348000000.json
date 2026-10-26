@@ -1,0 +1,44 @@
+{
+  "timestamp": 1792348000000,
+  "action": "KJSEA_PHASE_1A_PRECHANGE_SNAPSHOT",
+  "workspace_path": "/app/applet",
+  "git_environment": {
+    "is_git_repo": false,
+    "status": "fatal: not a git repository (or any of the parent directories): .git",
+    "tracking": "Workspace operates without local git metadata. Project relies on /recovery_snapshots/ for recoverable checkpoints."
+  },
+  "prechange_database_state": {
+    "active_academic_year": {
+      "id": "69ebb4c9-8f38-43ec-81c1-bb41d7488363",
+      "year": 2026,
+      "status": "Active"
+    },
+    "grade_9_cohort": {
+      "class_id": "0e49e9b0-0a82-4f4b-9109-685b0103a54c",
+      "class_name": "Grade 9",
+      "grade_level": 9,
+      "total_active_learners": 76,
+      "streams": [
+        {
+          "stream_id": "3d0ecb00-3e0f-425a-8d69-59f6c9f18b40",
+          "stream_name": "Red",
+          "class_teacher_id": "1d9eb03b-8267-4855-b876-16b8bee13322",
+          "teacher_name": "Madam Vivian"
+        },
+        {
+          "stream_id": "95e8ff02-6d67-433f-a417-2d74e2012793",
+          "stream_name": "Blue",
+          "class_teacher_id": "5e41bef7-8d3b-40fa-85d9-acd47614affe",
+          "teacher_name": "Mr Maina"
+        }
+      ]
+    },
+    "scope_protection": {
+      "src_types_ts": "UNTOUCHED",
+      "src_lib_storage_ts": "UNTOUCHED",
+      "src_components_ui": "UNTOUCHED",
+      "navigation": "UNTOUCHED",
+      "pdf_export": "UNTOUCHED"
+    }
+  }
+}

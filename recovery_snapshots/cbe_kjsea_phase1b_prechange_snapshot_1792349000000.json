@@ -1,0 +1,21 @@
+{
+  "timestamp": 1792349000000,
+  "action": "KJSEA_PHASE_1B_PRECHANGE_SNAPSHOT",
+  "workspace_path": "/app/applet",
+  "git_environment": {
+    "is_git_repo": false,
+    "status": "fatal: not a git repository (or any of the parent directories): .git"
+  },
+  "objective": "Phase 1B — Surgical identity immutability trigger for kjsea_level_entries",
+  "target_file": "/supabase/migrations/20261023000000_kjsea_level_uploader.sql",
+  "live_database_state": {
+    "kjsea_stream_authorisations_deployed": false,
+    "kjsea_level_entries_deployed": false,
+    "schema_cache_status": 404
+  },
+  "scope_boundaries": {
+    "src_types_ts": "UNTOUCHED",
+    "src_lib_storage_ts": "UNTOUCHED",
+    "ui_components": "UNTOUCHED"
+  }
+}
